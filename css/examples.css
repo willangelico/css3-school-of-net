@@ -1,0 +1,110 @@
+#corners1{
+	border-radius: 25px 50px 25px 50px;
+	background: #0288D1;
+	padding: 20px;
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+}
+
+#corners2{
+	border-radius: 25px;
+	border: 2px solid #03A9F4;
+	padding: 20px;
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+}
+
+#corners3{
+	border-radius: 25px;
+	background:url('../img/figure-01.jpg');
+	background-position: center top;
+	background-repeat: repeat;
+	background-size: 50px;
+	padding: 20px;
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+}
+
+/*------------BORDER IMAGE--------------------*/
+
+#borderimg1{
+	width: 300px;
+	height: 40px;
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url('../img/figure-01.jpg') 50 stretch; /* Safari 3.1-5 */
+	-o-border-image: url('../img/figure-01.jpg') 50 stretch; /* Opera 11-12. */
+	border-image: url('../img/figure-01.jpg') 50 stretch;
+	display: inline-block;
+}
+
+#borderimg2{
+	width: 300px;
+	height: 40px;
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url('../img/figure-02.jpg') 50 round; /* Safari 3.1-5 */
+	-o-border-image: url('../img/figure-02.jpg') 50 round; /* Opera 11-12. */
+	border-image: url('../img/figure-02.jpg') 50 round;
+	display: inline-block;
+}
+
+#borderimg3{
+	width: 300px;
+	height: 40px;
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url('../img/figure-03.jpg') 20% round; /* Safari 3.1-5 */
+	-o-border-image: url('../img/figure-03.jpg') 20% round; /* Opera 11-12. */
+	border-image: url('../img/figure-03.jpg') 20% round;
+	display: inline-block;
+}
+
+#borderimg4{
+	width: 300px;
+	height: 40px;
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url('../img/figure-03.jpg') 30% stretch; /* Safari 3.1-5 */
+	-o-border-image: url('../img/figure-03.jpg') 30% stretch; /* Opera 11-12. */
+	border-image: url('../img/figure-03.jpg') 30% stretch;
+	display: inline-block;
+}
+
+/*------------BACKGROUND--------------------*/
+
+#background1{
+	width: 500px;
+	height: 270px;
+	background-image: url('../img/bg02.png'), url('../img/bg01.png'), url('../img/figure-01.jpg');
+	background-position: right top, left bottom, center top; 
+	background-size: 150px, contain, cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+#background2{
+	width: 90%;
+	height: 160px;
+	padding: 10px;
+	border: 5px solid black;
+	background-image: url('../img/bg02.png');
+	background-size: 150px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-origin: border-box; /* border-box, padding-box, content-box */
+}
+
+#background3{
+	width: 300px;
+	height: 160px;
+	border: 10px dotted black;
+	padding: 35px;
+	background: rgb(107,167,163);
+	background-clip: content-box; /* padding-box, padding-box, content-box */
+	display: inline-block;
+
+}
